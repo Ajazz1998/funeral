@@ -231,15 +231,22 @@ button {
     text-align: center;
 }
 
-.f_container .fab{
+.f_container .fa{
     color: var(--orange-color);
-    font-size: 30px;
+    font-size: 100px;
+    padding: 15px 0;
+    width: 100%;
 }
 
 .f_container .box-2 > div{
-    padding: 15px 25px;
+    padding: 20px 25px;
     border: 1px dotted var(--orange-color);
     margin: 20px 10px;
+    cursor: pointer;
+}
+
+.f_container .box-2 > div p{
+    margin: 10px 0;
 }
 
 .f_container .d-box{
@@ -251,9 +258,14 @@ button {
 }
 
 .f_container .d-boxs{
-    transform: translateY(130px);
-    -webkit-transform: translateY(130px);
-    -moz-transform: translateY(130px);
-    -ms-transform: translateY(130px);
-    -o-transform: translateY(130px);
+    transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    -o-transform: translateY(200px);
+}
+
+.f_container .box:hover, .f_container .fa:hover{
+    background: var(--orange-color);
+    color: var(--white-color);
 }
