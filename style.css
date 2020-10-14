@@ -9,7 +9,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 1.8;
     letter-spacing: 1px;
     font-size: 14px;
     position: relative;
@@ -56,6 +56,7 @@ span{
 }
 
 .grid-2{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -202,7 +203,8 @@ button {
 
 
 .funeral{
-    padding:70px 0;
+    padding:100px 0;
+    padding-bottom: 160px;
     position: relative;
 }
 
@@ -269,4 +271,37 @@ button {
 .f_container .box:hover, .f_container .fa:hover{
     background: var(--orange-color);
     color: var(--white-color);
+}
+
+.protect{
+    padding: 20px 0;
+    background: rgb(185, 218, 230);
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius:0 25% 0 25%;
+    -webkit-border-radius:0 25% 0 25%;
+    -moz-border-radius:0 25% 0 25%;
+    -ms-border-radius:0 25% 0 25%;
+    -o-border-radius:0 25% 0 25%;
+}
+
+.p-content{
+    margin-left: 50px;
+}
+
+.p-content span{
+    font-weight: 500;
+}
+
+.p-content p{
+   margin: 10px 0;
+}
+
+.p-content .btn{
+   margin-top: 20px;
+   border-radius: 0;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
 }
