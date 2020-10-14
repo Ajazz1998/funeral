@@ -39,6 +39,20 @@ a{
     -o-border-radius: 30px;
 }
 
+.btn:hover, .top_nav .contact:hover{
+    background:transparent;
+    color: var(--orange-color);
+    border: var(--orange-color) 1px solid;
+
+}
+
+.mani-btn:hover{
+    background:var(--orange-color);
+    color: var(--white-color);
+    border: 0
+
+}
+
 .row{
     margin: 0 auto;
     width: 100%;
@@ -308,7 +322,7 @@ button {
 }
 
 .form{
-    padding: 20px 0;
+    padding: 40px 0;
     background: var(--main-color);
     color: var(--white-color);
     border-radius:150px 0 0 0;
