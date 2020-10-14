@@ -278,6 +278,7 @@ button {
     background: rgb(185, 218, 230);
     max-width: 1300px;
     margin: 0 auto;
+    margin-top: 100px;
     border-radius:0 150px 0 150px;
     -webkit-border-radius:0 150px 0 150px;
     -moz-border-radius:0 150px 0 150px;
@@ -304,4 +305,45 @@ button {
    -moz-border-radius: 0;
    -ms-border-radius: 0;
    -o-border-radius: 0;
+}
+
+.form{
+    padding: 20px 0;
+    background: var(--main-color);
+    color: var(--white-color);
+    border-radius:150px 0 0 0;
+    -webkit-border-radius:150px 0 0 0;
+    -moz-border-radius:150px 0 0 0;
+    -ms-border-radius:150px 0 0 0;
+    -o-border-radius:150px 0 0 0;
+}
+
+.form h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.form .grid-2{
+    margin: 30px auto;
+    grid-gap: 20px;
+}
+
+#qa, input[type=text]{
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: var(--white-color);
+    outline: none;
+}
+
+.form .row{
+    max-width: 900px;
+}
+
+.form .row{
+    text-align: center;
 }
