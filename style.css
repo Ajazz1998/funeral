@@ -95,8 +95,8 @@ h1{
     padding: 15px 120px;
 }
 
-.top_nav .log{
-    font-size: 25px;
+.top_nav .logo{
+    font-size: 30px;
     font-weight: 500;
     transition: 300ms;
     -webkit-transition: 300ms;
@@ -107,7 +107,30 @@ h1{
 
 }
 
-.top_nav .log:hover::after, .top_nav ul a:hover::after{
+
+.top_nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+.top_nav a{
+    color: var(--white-color);
+    font-size: 17px;
+
+}
+
+.top_nav ul li{
+   margin: 0 30px;
+}
+
+.top_nav ul a:hover{
+    color: var(--orange-color);
+
+}
+
+
+.top_nav .logo:hover::after, .top_nav ul a:hover::after{
     content: "";
     display: block;
     background: var(--orange-color);
@@ -119,25 +142,6 @@ h1{
 
 .top_nav ul a:hover::after{
     margin:3px auto;
-
-}
-
-.top_nav ul{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
-}
-
-.top_nav a{
-    color: var(--white-color);
-}
-
-.top_nav ul li{
-   margin: 0 30px;
-}
-
-.top_nav ul a:hover{
-    color: var(--orange-color);
 
 }
 
