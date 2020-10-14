@@ -278,11 +278,11 @@ button {
     background: rgb(185, 218, 230);
     max-width: 1300px;
     margin: 0 auto;
-    border-radius:0 25% 0 25%;
-    -webkit-border-radius:0 25% 0 25%;
-    -moz-border-radius:0 25% 0 25%;
-    -ms-border-radius:0 25% 0 25%;
-    -o-border-radius:0 25% 0 25%;
+    border-radius:0 150px 0 150px;
+    -webkit-border-radius:0 150px 0 150px;
+    -moz-border-radius:0 150px 0 150px;
+    -ms-border-radius:0 150px 0 150px;
+    -o-border-radius:0 150px 0 150px;
 }
 
 .p-content{
