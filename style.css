@@ -238,7 +238,7 @@ button {
     text-align: center;
 }
 
-.funeral .f-header h1{
+.funeral .f-header h1, .test h1{
     font-weight: 500;
     font-size: 40px;
     margin-bottom: 10px;
@@ -365,3 +365,67 @@ button {
 .form .row{
     text-align: center;
 }
+
+
+
+
+.test{
+    padding: 100px 0;
+}
+
+.main-test > div{
+    text-align: center;
+}
+
+.client-testimonials-container  {
+    overflow: hidden;
+    color: var(--secondary-color);
+    padding: 0 200px;
+    text-align: center;
+  }
+  
+  .client-testimonial-item {
+    border-left: 5px solid var(--orange-color);
+    font-size: .95rem;
+    margin: 2em 0;
+    padding: 0 1em;
+    color: var(--second-color);
+  }
+  
+  .client-name {
+    font-size: 1rem;
+  }
+  
+  .client-testimonial-switch {
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: .6rem;
+    margin: 0 .2rem;
+    outline: none;
+    width: .6rem;
+  }
+  
+  .active-carousel-switch {
+    transform: scale(1.5);
+  }
+
+  .client-details{
+      display: flex;
+      margin-top: 20px;
+      text-align: left;
+
+  }
+
+  .client-details img{
+      width: 10%;
+      margin-right: 20px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+
+
