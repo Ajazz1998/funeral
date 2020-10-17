@@ -8,6 +8,7 @@ function currentContainer(n) {
   showContainer(carouselCounter = n);
 }
 
+
 function showContainer(n) {
 
   for (let i = 0; i < testimonialCarouselContainer.length; i++) {
@@ -34,3 +35,4 @@ carouselSwitch.forEach((button, i) => {
     currentContainer(i + 1);
   });
 });
+
