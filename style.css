@@ -37,6 +37,7 @@ a{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border: transparent 1px solid;
 }
 
 .btn:hover, .top_nav .contact:hover{
