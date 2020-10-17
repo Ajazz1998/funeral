@@ -371,6 +371,7 @@ button {
 
 .test{
     padding: 100px 0;
+    position: relative;
 }
 
 .main-test > div{
@@ -430,5 +431,12 @@ button {
 
 
 .test h1::before{
-    
+    content: "\275D";
+    display: block;
+    font-size: 250px;
+    color: var(--orange-color);
+    position: absolute;
+    top: 4%;
+    opacity: .3;
+    left: 27%;
 }
