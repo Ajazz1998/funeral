@@ -517,3 +517,19 @@ button {
   .clearfix {
     clear: both;
   }
+
+
+
+
+
+/* Animation */
+.Rightnmaitin {
+    position: relative;
+    animation: right 400ms;
+    -webkit-animation: Right 400ms;
+}
+
+@keyframes right {
+    from {Right: 200px;}
+    to {Right: 0px}
+  }
