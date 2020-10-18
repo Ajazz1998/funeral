@@ -460,7 +460,10 @@ button {
     width: 100%;
     position: relative;
     height: auto;
+    padding-bottom: 30px;
+    border-bottom: #ccc 1px solid;
   }
+
   .footer .col {
     width: 200px;
     height: auto;
