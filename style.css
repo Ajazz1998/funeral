@@ -501,6 +501,7 @@ button {
 
   .footer .social{
     width: 350px;
+    margin-right: 100px;
   }
 
   .social ul li {
