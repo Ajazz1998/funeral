@@ -607,3 +607,10 @@ button {
     border: var(--orange-color) 1px dotted;
     padding: 7px 12px;
 }
+
+.column{
+    margin-left: 10px;
+    background: var(--bg-background);
+    padding: 20px 30px;
+}
+
