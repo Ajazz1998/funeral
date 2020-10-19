@@ -588,3 +588,7 @@ button {
 .main-contact{
     margin-top: 50px;
 }
+
+.main-contact ul li{
+    display: flex;
+}
