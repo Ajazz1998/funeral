@@ -570,6 +570,21 @@ button {
     padding: 100px 0;
 }
 
+.contact h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.contact h1::after{
+    content: "";
+    height: 2px;
+    width: 10%;
+    background: #000;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .main-contact{
     margin-top: 50px;
 }
