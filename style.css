@@ -589,6 +589,21 @@ button {
     margin-top: 50px;
 }
 
+.main-contact ul{
+    margin-top: 40px;
+}
+
 .main-contact ul li{
     display: flex;
+    margin: 10px 0;
+}
+
+.main-contact ul li i{
+    margin:0 15px;
+    margin-top: -3px;
+    margin-left: 0;
+    font-size: 25px;
+    cursor: pointer;
+    border: var(--orange-color) 1px dotted;
+    padding: 7px 12px;
 }
