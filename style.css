@@ -16,6 +16,7 @@ body{
     --main-color: rgb(1, 59, 82);
     --orange-color:rgb(255, 115, 0);
     --white-color:#fff;
+    --bg-background: #f6f9fe;
 }
 
 li{
@@ -448,7 +449,7 @@ button {
 
 .main-footer {
     padding: 100px 0;
-    background: #f4f4f4;
+    background: var(--bg-background);
     border-radius: 0 150px 0 0;
     -webkit-border-radius: 0 150px 0 0;
     -moz-border-radius: 0 150px 0 0;
