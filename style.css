@@ -595,7 +595,7 @@ button {
 
 .main-contact ul li{
     display: flex;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .main-contact ul li i{
@@ -608,9 +608,31 @@ button {
     padding: 7px 12px;
 }
 
+.main-contact ul li .fa-location-arrow{
+    padding-top: 12px;
+}
+
 .column{
     margin-left: 10px;
     background: var(--bg-background);
     padding: 20px 30px;
 }
+
+.column input[type = text], .column textarea{
+    width: 100%;
+    border: 0;
+    margin: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .05);
+}
+
+.column textarea{
+    padding: 10px 30px;
+    outline: none;
+}
+
 
