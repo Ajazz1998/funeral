@@ -566,6 +566,8 @@ button {
   }
 
 
+  /* Pages */
+
 .contact{
     padding: 100px 0;
 }
@@ -573,6 +575,7 @@ button {
 .contact h1{
     font-size: 45px;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 .contact h1::after{
