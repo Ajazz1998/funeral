@@ -108,15 +108,15 @@ carouselSwitch.forEach((button, i) => {
     });
     
     $('.js--wp-projects1').waypoint(function(){
-     $('.js--wp-projects1').addClass('animated fadeInUp'); 
-    }, {
-     offset: '80%'
+       $('.js--wp-projects1').addClass('animated fadeInUp'); 
+      }, {
+       offset: '80%'
     });
     
     $('.js--wp-projects2').waypoint(function(){
-     $('.js--wp-projects2').addClass('animated fadeInUp'); 
-    }, {
-     offset: '50%'
+        $('.js--wp-projects2').addClass('animated fadeInUp'); 
+       }, {
+        offset: '50%'
     });
     
 });
