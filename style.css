@@ -640,10 +640,24 @@ button {
 
 
 .about{
-    padding: 100px 0;
+    padding: 70px 0;
+    text-align: center;
+
+}
+
+.about h1::after{
+    margin: 15px auto;
 }
 
 
 .about img{
     width: 100%;
+}
+
+.about .column{
+    margin-right: 50PX;
+}
+
+.about .c-content{
+    margin-top: 50PX;
 }
