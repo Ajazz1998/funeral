@@ -12,26 +12,26 @@
 <body>
     <header class="header">
         <nav class="top_nav">
-            <a href="../index.html"><span class="logo">Funerals</span></a>
+            <a href="../index.html"><span class="logo wow fadeIn">Funerals</span></a>
 
-            <ul>
+            <ul class="wow fadeInLeft">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#">Funerals</a></li>
                 <li><a href="#">Headstones</a></li>
                 <li><a href="/page/about.html">About</a></li>
             </ul>
 
-            <li><a href="/page/contact.html" class="contact">Contact Us</a></li>
+            <li><a href="/page/contact.html" class="contact wow fadeInRight">Contact Us</a></li>
         </nav>
 
         <div class="main_container flex-center">
-            <div class="conten">
+            <div class="conten wow fadeInLeft">
                 <h1><span>Contact Us</span> </h1>
                 <p>Lorem ipsum dolor amet consectetur, adipisicing elit. Quod incidunt porro quasi officia culpa 
                     praesentium atque earum magni, minima delectus veniam ipsa repellendus.</p>
             </div>
 
-            <img src="../img/blogOne.jpg" style="height:20%;" alt="family">
+            <img class="wow fadeInRight" src="../img/blogOne.jpg" style="height:20%;" alt="family">
         </div>
     </header>
 
@@ -41,7 +41,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos Laborum<br> quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
     
             <div class="main-contact grid-2">
-                <div class="c-content">
+                <div class="c-content wow fadeInLeft">
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     
                     <ul>
@@ -52,7 +52,7 @@
 
                 </div>
     
-                <div class="column">
+                <div class="column wow fadeInRight">
                     <form action="/action_page.php">
                     
                       <input type="text" id="fname" name="firstname" placeholder="Your Name..">
@@ -70,7 +70,7 @@
     </section>
 
     <section class="main-footer">
-        <footer class="footer row">
+        <footer class="footer row wow fadeIn">
             <div class="contain">
                 <div class="col social">
                     <h2>Social</h2>
@@ -116,10 +116,11 @@
           </div>
           </footer>
 
-          <p class="copy"><a href="#">Funeral</a> © 2020 All rights reserved.</p>
+          <p class="copy wow fadeInUp"><a href="#">Funeral</a> © 2020 All rights reserved.</p>
     </section>
     
-
+    <script src="../Resources/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <script src="./script.js"></script>
 </body>
 </html>
