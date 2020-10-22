@@ -35,14 +35,6 @@
 
 @media screen and (max-width:800px){
 
-   .header .top_nav {
-        padding: 15px 20px;
-    }
-
-    .header .top_nav .contact {
-        margin-right: 20px;
-    }
-
     .header .top_nav ul {
         display: block;
      }
@@ -51,13 +43,42 @@
         margin: 20px 0;
      }
 
+     .header .wrapper input[type="text"] {
+        width: 197px;
+    }
+
+     .header .wrapper .btn {
+        margin-left: 73px;
+    }
+
+    .protect {
+        height: 70vh;
+    }
+     
+    .protect > div{
+        display: block;
+    }
+
      .main_container img {
         display: none;
-    }
+     }
 
      .main_container .conten {
         display: block;
         margin-left: 200px;
         margin-bottom: 300px;
+    }
+
+    .form #qa, input[type=text], .form #lname {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .test .client-testimonials-container {
+        padding: 0 100px;
+    }
+
+    .test .main-test h1::before {
+        left: 17%;
     }
 }
