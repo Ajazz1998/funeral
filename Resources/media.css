@@ -37,6 +37,7 @@
 
     .header .top_nav ul {
         display: block;
+        margin-top: 40px;
      }
 
     .header .top_nav ul li{
@@ -80,5 +81,68 @@
 
     .test .main-test h1::before {
         left: 17%;
+    }
+}
+
+@media screen and (max-width:740px){
+    .header .fa-chevron-down {
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .protect {
+        height: 80vh;
+    }
+
+    .funeral .f_container {
+        display: block;
+        margin: 0 50px;
+    }
+
+    .funeral .f_container .d-boxs {
+        transform: translateY(120px);
+        -webkit-transform: translateY(120px);
+        -moz-transform: translateY(120px);
+        -ms-transform: translateY(120px);
+        -o-transform: translateY(120px);
+    }
+
+    
+    .test .client-testimonials-container {
+        padding: 0 20px;
+    }
+
+    .test .main-test h1::before {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    body .header{
+        width: 100%;
+    }
+
+    .p-img img{
+        width: 350px;
+    }
+
+    .form .grid-2{
+        display: block;
+    }
+
+    .header .wrapper {
+        width: 340px;
+        display: flex;
+    }
+
+    .header .wrapper .btn {
+        margin-left: 0;
+    }
+
+    .main_container .conten {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 300px;
     }
 }
