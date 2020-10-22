@@ -37,4 +37,12 @@ carouselSwitch.forEach((button, i) => {
   });
 });
 
+document.getElementById('bar').addEventListener('click', () => {
+  const navbar = document.getElementById('topNav');
 
+  if(navbar.style.display === 'none'){
+    navbar.style.display = 'block'
+  }else{
+    navbar.style.display = 'none'
+  }
+})

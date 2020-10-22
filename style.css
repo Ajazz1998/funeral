@@ -48,6 +48,15 @@ a{
     border: transparent 1px solid;
 }
 
+.fa-bars {
+    color: var(--orange-color);
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
 .btn:hover, .top_nav .contact:hover{
     background:transparent;
     color: var(--orange-color);
