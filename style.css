@@ -27,6 +27,13 @@ a{
     text-decoration: none;
 }
 
+.fa-chevron-down{
+    color: var(--white-color);
+    position: absolute;
+    top: 130%;
+    left: 100%;
+}
+
 .btn{
     background: var(--orange-color);
     padding: 12px 30px;
@@ -177,6 +184,9 @@ h1{
     -o-border-radius: 40%;
 }
 
+.header .conten{
+    position: relative;
+}
 
 .header .conten span{
     font-weight: 700;
