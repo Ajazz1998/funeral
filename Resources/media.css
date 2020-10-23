@@ -120,6 +120,13 @@
     .header .fa-chevron-down {
         left: 50%;
     }
+
+    
+    .header .main_container .conten {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:650px){
@@ -128,7 +135,7 @@
         width: 90%;
     }
 
-    .funeral .f_container, .contact .grid-2 {
+    .funeral .f_container, .contact .grid-2, .about .grid-2 {
         display: block;
         margin: 0 30px;
     }
@@ -174,10 +181,5 @@
         margin:0 10px;
     }
 
-    .header .main_container .conten {
-        display: block;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
 
 }
