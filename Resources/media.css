@@ -123,10 +123,14 @@
 }
 
 @media screen and (max-width:650px){
+        
+    body .contact .row {
+        width: 90%;
+    }
 
-    .funeral .f_container {
+    .funeral .f_container, .contact .grid-2 {
         display: block;
-        margin: 0 50px;
+        margin: 0 30px;
     }
 
     .funeral .f_container .d-boxs {
