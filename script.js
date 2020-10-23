@@ -1,4 +1,15 @@
 
+document.getElementById('bar').addEventListener('click', () => {
+  const navbar = document.getElementById('topNav');
+
+  if(navbar.style.display === 'none'){
+    navbar.style.display = 'block';
+  }else{
+    navbar.style.display = 'none';
+  }
+})
+
+
 const testimonialCarouselContainer = document.querySelectorAll('.client-testimonial-item');
 const carouselSwitch = document.querySelectorAll('.client-testimonial-switch');
 
@@ -36,13 +47,3 @@ carouselSwitch.forEach((button, i) => {
     currentContainer(i + 1);
   });
 });
-
-document.getElementById('bar').addEventListener('click', () => {
-  const navbar = document.getElementById('topNav');
-
-  if(navbar.style.display === 'none'){
-    navbar.style.display = 'block'
-  }else{
-    navbar.style.display = 'none'
-  }
-})
