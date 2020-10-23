@@ -32,14 +32,17 @@
         width: 47%;
     }
 
-    body .row {
-        margin: 0 auto;
-        width: 100%;
-        max-width:970px;
+    body .contact .row {
+        max-width:850px;
     }
 }
 
 @media screen and (max-width:800px){
+
+    
+    body .contact .row {
+        max-width:750px;
+    }
 
     .header .top_nav ul {
         display: none;
