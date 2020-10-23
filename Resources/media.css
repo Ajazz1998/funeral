@@ -28,8 +28,14 @@
         margin-left: 0;
      }
 
-     .main_container img {
+     .header .main_container img {
         width: 47%;
+    }
+
+    body .row {
+        margin: 0 auto;
+        width: 100%;
+        max-width:970px;
     }
 }
 
@@ -38,6 +44,14 @@
     .header .top_nav ul {
         display: none;
         margin-top: 30px;
+     }
+
+     .header h1{
+         font-size: 50px;
+     }
+
+     .header .main_container .conten p {
+         font-size: 13px;
      }
 
      .header .top_nav .contact {
@@ -60,8 +74,15 @@
         margin-left: 73px;
     }
 
+    .header .fa-chevron-down {
+        color: var(--white-color);
+        position: absolute;
+        top: 130%;
+        left: 50%;
+    }
+
     .protect {
-        height: 70vh;
+        height: 140vh;
     }
      
     .protect > div{
@@ -75,7 +96,7 @@
      .main_container .conten {
         display: block;
         margin-left: 200px;
-        margin-bottom: 300px;
+        margin-bottom: 100px;
     }
 
     .form #qa, input[type=text], .form #lname {
@@ -99,9 +120,6 @@
 }
 
 @media screen and (max-width:650px){
-    .protect {
-        height: 80vh;
-    }
 
     .funeral .f_container {
         display: block;
@@ -140,17 +158,19 @@
     }
 
     .header .wrapper {
-        width: 340px;
-        display: flex;
+        display: none;
     }
 
-    .header .wrapper .btn {
-        margin-left: 0;
+    .header .main_container {
+        height: 90%;
+        width: 100%;
+        margin:0 10px;
     }
 
-    .main_container .conten {
+    .header .main_container .conten {
         display: block;
-        margin-left: 100px;
-        margin-bottom: 300px;
+        margin-left: 20px;
+        margin-bottom: 10px;
     }
+
 }
