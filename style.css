@@ -19,6 +19,8 @@ body{
     --bg-background: #f6f9fe;
 }
 
+/*---------  Global componets ----------*/
+
 li{
     list-style: none;
 }

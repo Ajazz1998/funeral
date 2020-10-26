@@ -1,3 +1,8 @@
+
+
+/*-------------  Media query to make it response site    ----------------*/
+
+
 @media screen and (max-width:1350px){
     .header .top_nav ul {
         margin-left: 150px;

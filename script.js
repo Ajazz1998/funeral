@@ -1,3 +1,8 @@
+
+
+//-------- This bit of code for opening and closing navbar
+
+
 document.getElementById('bar').addEventListener('click', () => {
   const navbar = document.getElementById('topNav');
 
@@ -7,6 +12,9 @@ document.getElementById('bar').addEventListener('click', () => {
     navbar.style.display = 'none'
   }
 })
+
+
+//-------- This code is for slide show
 
 
 const testimonialCarouselContainer = document.querySelectorAll('.client-testimonial-item');
