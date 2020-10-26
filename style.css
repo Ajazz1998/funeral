@@ -100,6 +100,10 @@ h1{
     line-height: 1.2;
 }
 
+
+/*---------  header  with Navbar  ----------*/
+
+
 .header{
     background: var(--main-color);
     height: 100vh;
@@ -244,6 +248,10 @@ button {
 }
 
 
+/*---------  funeral----------*/
+
+
+
 .funeral{
     padding:100px 0;
     padding-bottom: 160px;
@@ -314,6 +322,10 @@ button {
     background: var(--orange-color);
     color: var(--white-color);
 }
+
+
+/*---------  protect----------*/
+
 
 .protect{
     padding: 20px 0;
@@ -391,6 +403,7 @@ button {
 }
 
 
+/*-------- test ------------*/
 
 
 .test{
@@ -466,6 +479,7 @@ button {
 }
 
 
+/*-------- footer ------------*/
 
 
 
